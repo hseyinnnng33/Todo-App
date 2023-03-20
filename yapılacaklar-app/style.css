@@ -21,19 +21,29 @@
 }
 
 .icerik{
-    padding: 10px;
-    background-color: #f1f1f1;
+    padding: 20px;
+    background-color: #88338b;
     border-radius: 5px;
 }
 
 .input{
-    width: 200px;
+    width: 250px;
     height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
 }
 
 .ekle{
-    padding: 5px 20px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #380840;
     cursor: pointer;
+    color: #fff;
+    font-size: 18px;
 }
 
 .ul{
@@ -42,21 +52,33 @@
     margin-top: 10px;
 }
 
-.ul li{
-    display: flex;
-}
-
 .ul button{
-    padding: 5px 10px;
+    padding: 6px 12px;
     cursor: pointer;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #fff;
 }
 
 .active{
-    background-color: yellow;
+    background-color: #dbe6fe;
     display: flex;
     margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 .active p{
     margin-right: auto;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.ul button:hover{
+    background-color: #000000;
+    color: #fff;
 }
